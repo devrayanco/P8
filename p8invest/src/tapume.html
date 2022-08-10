@@ -5,36 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>P8 Investimentos</title>
 </head>
 <body class="bg">
-    <header>
-
-    </header>
     <main>
         <div class="logo_desktop">
-            <img src="img/logo.png" alt="">
+            <div data-aos="zoom-in-down">
+                <img src="img/logo.png" alt="">
+            </div>
         </div>
         <div class="logo_mobile">
-            <img src="img/logo_mobile.png" alt="">
+            <div data-aos="zoom-in-down">
+                <img src="img/logo_mobile.png" alt="">
+            </div>
         </div>
     </main>
     <footer>
-        <div class="Bg_footer text_p">
-            <div class="text_p8">
-                <img src="img/P8.png" alt="">
-            </div>
-            <div class="text_p2">
-                <p>Av Borges de Medeiros 633 - 601</p>
-                <p>22430-041 - Leblon</p>
-                <p>Rio de Janeiro - RJ - Brasil</p>
-            </div>
-            <div class="text_p3">
-                <p>contato@p8i.com.br</p>
-                <p>[+5521] 3033 3300</p>
-                <p>[+5521] 3439 6007</p>
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <div class="Bg_footer text_p">
+                <div class="text_p8">
+                    <img src="img/P8.png" alt="">
+                </div>
+                <div class="text_content">
+                    <div class="text_p2">
+                        <a href="https://www.google.com/maps/place/Av.+Borges+de+Medeiros,+633+-+601+-+Leblon,+Rio+de+Janeiro+-+RJ,+22430-041/data=!4m2!3m1!1s0x9bd5a90dfc2efb:0x6071767f7abf2067?sa=X&ved=2ahUKEwiStduWpL35AhVaGLkGHUINAnsQ8gF6BAgkEAE" target="_blank">
+                            <p>Av Borges de Medeiros 633 - 601</p>
+                            <p>22430-041 - Leblon</p>
+                            <p>Rio de Janeiro - RJ - Brasil</p>
+                        </a>
+                    </div>
+                    <div class="text_p3">
+                        <p><a href="mailto:contato@p8i.com.br">contato@p8i.com.br</a></p>
+                        <p><a href="tel:+55 21 3033 3300">[+5521] 3033 3300</a></p>
+                        <p><a href="tel:+55 21 3439 6007">[+5521] 3439 6007</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
